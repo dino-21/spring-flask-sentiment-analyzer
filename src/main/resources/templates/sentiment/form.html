@@ -7,7 +7,7 @@
 </head>
 <body>
 <h2>리뷰 입력</h2>
-<form th:action="@{/sentiment/analyze}" method="post">
+<form th:action="@{/sentiment/analyze}" method="post" onsubmit="return validateForm()">
     <textarea name="review" rows="5" cols="50" placeholder="리뷰를 입력하세요"></textarea><br>
     <button type="submit">감성 분석</button>
 </form>
@@ -20,9 +20,9 @@
     </li>
 </ul>
 
-    
 
 <script>
+    //리뷰 입력 폼이 제출되기 전 유효성 체크 (내용이 비였는지)
     function validateForm() {
         const review = document.querySelector("textarea[name='review']").value.trim();
         if (!review) {
@@ -33,7 +33,7 @@
     }
 </script>
 
-<form th:action="@{/sentiment/analyze}" method="post" onsubmit="return validateForm()">
+
 </body>
 </html>
 
