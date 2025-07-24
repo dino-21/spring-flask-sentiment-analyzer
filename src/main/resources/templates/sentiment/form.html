@@ -20,6 +20,20 @@
     </li>
 </ul>
 
+    
+
+<script>
+    function validateForm() {
+        const review = document.querySelector("textarea[name='review']").value.trim();
+        if (!review) {
+            alert("리뷰를 입력해주세요.");
+            return false;
+        }
+        return true;
+    }
+</script>
+
+<form th:action="@{/sentiment/analyze}" method="post" onsubmit="return validateForm()">
 </body>
 </html>
 
