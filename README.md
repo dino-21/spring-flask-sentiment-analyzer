@@ -1,4 +1,4 @@
-springboot-flask-sentiment-analyzer
+## springboot-flask-sentiment-analyzer ##
 
 
 ![45](https://github.com/user-attachments/assets/ff9662c3-3719-48e7-967c-2b6a130dd0cc)
@@ -12,6 +12,3 @@ springboot-flask-sentiment-analyzer
 <img width="915" height="596" alt="19" src="https://github.com/user-attachments/assets/75947e4d-997a-454e-bb2f-48c43bd6e769" />
 
 
-
-
-![2](https://github.com/user-attachments/assets/07c82059-3fc9-47f8-a493-4c3a8106ad07)
